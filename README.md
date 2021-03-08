@@ -66,5 +66,5 @@ instructions for `count`. Do the following on Gradescope:
 1. In a couple of sentences, describe what `count` does.
 2. Please copy the assembly for `count`, with your annotations, into a separate
 text file called `annotated_count.txt`, and upload it to Gradescope. (Please
-include the assembly for `count` only.)
+include the assembly and your annotations for `count` only.)
 
