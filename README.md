@@ -31,7 +31,7 @@ Open the `output.txt` file and find the assembly for `main`. With the help of
 2. How many bytes are assigned for the stack frame for `main` right before
 `count()` is called (before executing `call` instruction)?
 3. What integer values, register values or corresponding C variables are stored
-at the following locations?
+at the following location within the `main` stack frame?
   * `-0x4(%ebp)`
   * `-0xc(%ebp)`
   * `-0x10(%ebp)`
