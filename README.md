@@ -1,5 +1,5 @@
-# COMPSCI 230 Spring 2021
-# Assembly Language
+# COMPSCI 230 Computer Systems Principles
+# Assembly Language Lab
 
 In this lab we will use `objdump` on a simple C program. You will be asked to
 answer a few questions about the output of `objdump` on Gradescope.
