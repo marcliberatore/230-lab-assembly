@@ -39,15 +39,16 @@ at the following locations?
 Next, find the assembly for `fibonacci`. With the help of `fibonacci.c`, answer
 the following questions on Gradescope:
 
-1. Where are the following values stored on the stack? Please answer using the
-format `D(%ebp)`, where `D` specifies displacement offset.
+1. Where are the following values stored on the stack frame for `fibonacci`?
+Please answer using the format `D(%ebp)`, where `D` specifies displacement
+offset.
   * `len`
   * `seq[0]`
   * `i`
 2. In a couple of sentences, explain what is the purpose of each of the
 following instructions. Please take note of the instruction offset (e.g., 121d)
 so that there is no confusion exactly which instruction you are asked to
-explain. If an instructions contain registers, you will also need to explain
+explain. If an instruction contains registers, you will also need to explain
 what integer values or corresponding C variables are stored in these registers.
   * `121d:       c1 e0 02                shl    $0x2,%eax`
   * `1224:       e8 fc ff ff ff          call   1225 <fibonacci+0x16>`
