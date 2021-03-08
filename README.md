@@ -58,7 +58,7 @@ what integer values or corresponding C variables are stored in these registers.
   * `1293:       3b 45 08                cmp    0x8(%ebp),%eax`
   * `1298:       8b 45 f0                mov    -0x10(%ebp),%eax`
 
-The easist way to find answers to this question is to annotate every line of the
+The easiest way to find answers to this question is to annotate every line of the
 assembly for `fibonacci` as to what each instruction does.
 
 Finally, look at the assembly for `count`, and annotate each line of the
