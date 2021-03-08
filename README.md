@@ -16,7 +16,7 @@ well as a C file `fibonacci.c`. The C file is incomplete—the implementation of
 function `count()` is left out. (Do not compile it.) You will need to use
 `objdump` to find out what this function does.
 
-Run the following to disassemble the binary and save the generate the assembly listing
+Run the following to disassemble the binary and save the generated assembly listing
 to a file `output.txt`:
 
 ```
