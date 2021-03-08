@@ -45,7 +45,7 @@ the following questions on Gradescope:
 Please answer using the format `D(%ebp)`, where `D` specifies displacement
 offset.
   * `len`
-  * `seq[0]`
+  * The address of`seq[0]`
   * `i`
 2. In a couple of sentences, explain what is the purpose of each of the
 following instructions. Please take note of the instruction offset (e.g., 121d)
