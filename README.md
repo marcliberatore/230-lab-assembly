@@ -1,20 +1,20 @@
 # COMPSCI 230 Computer Systems Principles
 # Assembly Language Lab
 
-In this lab we will use `objdump` on a simple C program. You will be asked to
-answer a few questions about the output of `objdump` on Gradescope.
+In this lab we will use `objdump` on a binary (object) file corresponding to a short C program. You will be asked to answer a few questions about the output of `objdump` on Gradescope.
 
-To start working on this lab you must be logged in to the Edlab and in your
-`cs230` directory. From this directory run the command:
+To start working on this lab you must be logged in to the Edlab and in your `cs230` directory, or be in a similar environment on your local machine. 
+
+From this directory run the command:
 
 ```
-$ git clone https://github.com/umass-cs-230/230-lab-binary-bomb
+$ git clone https://github.com/marcliberatore/230-lab-assembly.git
 ```
 
-In the folder you just downloaded, you will find a binary file `fibonacci`, as
-well as a C file `fibonacci.c`. The C file is incomplete—the implementation of
-function `count()` is left out. (Do not compile it.) You will need to use
-`objdump` to find out what this function does.
+to make a copy of this lab directory, or use [Github Desktop](https://desktop.github.com), or download and decompress a zip file directly from Github to use locally (the green "Code" button has a "Download ZIP" option). 
+
+
+In the directory you just downloaded, you will find a binary file `fibonacci`, as well as a C file `fibonacci.c`. The C file is incomplete -- the implementation of function `count()` is left out. (Don't overwrite the binary by attempting to recompile the C file!) You will need to use `objdump` to find out what this function does.
 
 Run the following to disassemble the binary and save the generated assembly listing
 to a file `output.txt`:
