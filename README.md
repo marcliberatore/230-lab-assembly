@@ -3,6 +3,8 @@
 
 In this lab we will use `objdump` on a binary (object) file corresponding to a short C program. You will be asked to answer a few questions about the output of `objdump` on Gradescope.
 
+**PLEASE NOTE:** You may find this lab quite challenging if you haven't started the binary bomb project. That's OK! But you should make a good-faith effort to get as far as possible in this lab with your group and your TA and UCA in the room, so that you come up to speed as quickly as possible with reading assembly.
+
 To start working on this lab you must be logged in to the Edlab and in your `cs230` directory, or be in a similar environment on your local machine. 
 
 From this directory run the command:
