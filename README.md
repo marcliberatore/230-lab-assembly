@@ -31,9 +31,9 @@ Open the `output.txt` file and find the assembly for `main`. With the help of
 1. How many bytes are assigned for the stack frame for `main` (that is, the amount of memory between the addresses indicated by `%ebp` and `%esp` inclusive) right before `fibonacci()` is called (before executing `call` instruction)?
 2. How many bytes are assigned for the stack frame for `main` (that is, the amount of memory between the addresses indicated by `%ebp` and `%esp` inclusive) right before `count()` is called (before executing `call` instruction)?
 3. What integer values, register values or corresponding C variables are stored at the following locations within the `main` stack frame?
-  * `-0x4(%ebp)`
   * `-0xc(%ebp)`
   * `-0x10(%ebp)`
+  * `-0x14(%ebp)`
 
 Next, find the assembly for `fibonacci`. With the help of `fibonacci.c`, answer
 the following questions on Gradescope:
